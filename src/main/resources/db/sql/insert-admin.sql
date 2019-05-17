@@ -1,0 +1,1 @@
+INSERT INTO admin VALUES (1, 'uploadDirectory', 'C:\Users\NTISNS01\Desktop\etc\Demo\Tools\apache-tomcat-8.0.33\webapps\temple-cats-for-light-and-peace-1\resources\core\images');

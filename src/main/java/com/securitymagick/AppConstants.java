@@ -1,0 +1,115 @@
+package com.securitymagick;
+public class AppConstants {
+	private AppConstants() {
+	}
+
+	public static final String FounderFName = "Hazel";
+	public static final String FounderLName = "Potter";
+	public static final String FamousOther = "half-sister";
+	public static final String FamousName ="Mia Potter";
+	public static final String FamousProfessional = "archeologist";
+	public static final String FamousPossessive = "her";
+	public static final String FamousPronoun ="she";
+	public static final String FounderPossessive = "her";
+	public static final String FounderPronoun ="she";
+	public static final String FounderYoungAge ="11";
+
+	public static final String SiteName = "Temple Cats for Light and Peace";
+	public static final String FoundedYear = "2001";
+	public static final String CopyRightYear = "2012";
+	public static final Integer AboutLayout = 0;
+	public static final Long FORGOT_PASSWORD_TOKEN_EXPIRATION_IN_SECONDS = 1800L;
+
+	public static final Boolean clientSidePasswordMeter = false;
+	public static final Boolean clientSidePasswordMatch = false;
+	public static final Boolean clientSideUsernameCheck = false;
+	public static final Boolean clientSideXSSComments = true;
+	public static final Boolean clientSideXSSPost = false;
+	public static final Boolean clientSideXSSPostTitle = true;
+	public static final Boolean registrationEmptyTests = false;
+	public static final Boolean registrationExistingTests = false;
+	public static final Boolean registrationPasswordMatchTest = false;
+	public static final Boolean updateEmptyTests = true;
+	public static final Boolean updatePasswordMatchTest = true;
+	public static final Boolean loginErrorIfMultiple = true;
+	public static final Boolean loginUserEnumeration = true;
+	public static final Boolean forgotPasswordEmail = true;
+	public static final Boolean forgotPasswordMultiple = true;
+	public static final Boolean forgotPasswordUserEnumeration = true;
+	public static final Boolean usernameCookieBase64Encode = false;
+	public static final Boolean usernameCookieAuthToken = false;
+	public static final Boolean permissionsCookieBase64Encode = false;
+	public static final Boolean forgotPasswordTokenInUrl = true;
+	public static final Boolean forgotPasswordRandomToken = false;
+	public static final Boolean forgotPasswordRandomGood = true;
+	public static final Boolean forgotPasswordTokenVerifyExists = true;
+	public static final Boolean forgotPasswordTokenVerifyExpired = false;
+	public static final Boolean forgotPasswordTokenBase64Encode = true;
+	public static final Boolean forgotPasswordTokenVerifyValidForUser = true;
+	public static final Boolean forgotPasswordTokenVerifyOnChange = true;
+	public static final Boolean forgotPasswordTokenVerifyAllOnChange = false;
+	public static final Boolean voteCheckUserOnPageLoad = true;
+	public static final Boolean voteCheckUserOnSubmit = true;
+	public static final Boolean userAgentSqlInjection = true;
+	public static final Boolean adminSettingsSqlInjection = false;
+	public static final Boolean userFavoriteSqlInjection = false;
+	public static final Boolean postCommentSqlInjection = false;
+	public static final Boolean postImageNameSqlInjection = true;
+	public static final Boolean csrfProtection = true;
+	public static final Boolean localStorageCsrfProtection = false;
+	public static final Boolean csrfProtectionGoodRandom = true;
+	public static final Boolean resetPasswordEmptyFieldTest = true;
+	public static final Boolean resetPasswordPasswordMatchTest = true;
+	public static final Boolean adminPageViewOnlyIfCookie = true;
+	public static final Boolean userPageViewOnlyIfCookie = false;
+	public static final Boolean adminExecutionOnlyIfCookie = false;
+	public static final Boolean userExecutionOnlyIfCookie = false;
+
+	public static final String EmptyMessage = "A mandatory form field is empty.";
+	public static final String RegistrationExistingMessage = "This username cannot be used.";
+	public static final String PasswordMatchMessage = "Passwords do not match!";
+	public static final String LoginNoUserEnumerationMessage = "Username or Password Incorrect";
+	public static final String LoginUserEnumerationPasswordWrongMessage = "The password is not correct";
+	public static final String UserEnumerationUsernameWrongMessage = "No such user";
+	public static final String UnExpectedErrorMessage = "An unexpected error occurred.  Please contact the admin.";
+	public static final String ForgotPasswordEmailMessage = "RESET PASSWORD EMAIL SENT.";
+	public static final String ForgotPasswordMessage = "Follow the instructions to reset your password.";
+	public static final String ResetPasswordEmailMessageText = "Click the following link to reset your password:";
+	public static final String ResetPasswordEmailLinkText = "RESET PASSWORD";
+	public static final String ResetPasswordInValidRandomToken = "The provided token is no longer valid.";
+	public static final String USER_COOKIE_NAME = "USERNAME";
+	public static final String FORGOTPASSWORD_COOKIE_NAME = "resetPassword";
+	public static final String CSRF_COOKIE_NAME = "csrfCookie";
+	public static final String PERMISSIONS_COOKIE_NAME = "permissions";
+	public static final String PERMISSIONS_COOKIE_USER_VALUE = "RESU";
+	public static final String PERMISSIONS_COOKIE_ADMIN_VALUE = "ADMIN";
+	public static final String PERMISSIONS_COOKIE_NONE_VALUE = "none";
+	public static final String PERMISSIONS_COOKIE_SEPERATOR = "@";
+
+	public static final String LOGIN_URL = "login";
+	public static final String REGISTER_URL = "register";
+	public static final String FORGOTPASSWORD_URL = "forgotpassword";
+	public static final String ABOUT_URL = "aboutus";
+	public static final String ADMIN_URL = "superuser";
+	public static final String ACCOUNT_URL = "accountHome";
+	public static final String LOGOUT_URL = "logout";
+	public static final String ADDPOST_URL = "addPost";
+	public static final String PUBLIC_URL = "public";
+	public static final String UPDATEACCOUNT_URL = "updateAccount";
+	public static final String VOTE_URL = "vote";
+	public static final String LOGS_URL = "logs";
+	public static final String POSTS_URL = "listposts";
+	public static final String COMMENTS_URL = "comments";
+	public static final String ACCOUNTS_URL = "listAccounts";
+	public static final String SETTINGS_URL = "settings";
+	public static final String FounderSpecial ="cats";
+	public static final String Adversity = "depression";
+	public static final String BadResultOfAdversisty ="couldn't get out of bed";
+	public static final String SelfHelp = "Yes";
+	public static final String DescriptiveToSubject = "light and peace";
+	public static final String Location ="Peru";
+	public static final String DescriptivePlace = "null";
+	public static final String FounderStudied ="Archeology";
+	public static final String SubjectOfSite ="temple cats";
+
+}

@@ -1,0 +1,16 @@
+INSERT INTO menu VALUES(1, 'main', 1, 'Login', 'login', 'glyphicon-log-in', 'To Post a temple cat');
+INSERT INTO menu VALUES(2, 'main', 2, 'Register', 'register', 'glyphicon-plus-sign', 'Create a new account');
+INSERT INTO menu VALUES(3, 'main', 3, 'Password Help', 'forgotpassword', 'glyphicon-exclamation-sign', 'Reset Your Password');
+INSERT INTO menu VALUES(4, 'main', 4, 'About Us', 'aboutus', 'glyphicon-eye-open', 'Learn More About Our Company');
+INSERT INTO menu VALUES(5, 'navbar', 1, 'SUPER USER', 'superuser', '', 'admin');
+INSERT INTO menu VALUES(6, 'navbar', 2, 'ACCOUNT HOME', 'accountHome', '', 'logged in');
+INSERT INTO menu VALUES(7, 'navbar', 3, 'LOGOUT', 'logout', '', 'logged in');
+INSERT INTO menu VALUES(8, 'account', 1, 'Add', 'addPost', 'glyphicon-pencil', 'Post a new temple cat');
+INSERT INTO menu VALUES(9, 'account', 2, 'Read', 'public', 'glyphicon-book', 'See the Latest Posts');
+INSERT INTO menu VALUES(10, 'account', 3, 'Update', 'updateAccount', 'glyphicon-edit', 'Update your account');
+INSERT INTO menu VALUES(11, 'account', 4, 'Vote', 'vote', 'glyphicon-gift', 'For your favorite temple cat');
+INSERT INTO menu VALUES(12, 'admin', 1, 'Logs', 'logs', 'glyphicon-file', 'Check the logs');
+INSERT INTO menu VALUES(13, 'admin', 2, 'Change Posts', 'listposts', 'glyphicon-th-list', 'Edit or Delete');
+INSERT INTO menu VALUES(14, 'admin', 3, 'Change Comments', 'comments', 'glyphicon-scissors', 'Edit or Delete');
+INSERT INTO menu VALUES(15, 'admin', 4, 'View Accounts', 'listAccounts', 'glyphicon-check', ' Edit / Delete');
+INSERT INTO menu VALUES(16, 'admin', 5, 'Settings', 'settings', 'glyphicon-wrench', 'Admin Settings');

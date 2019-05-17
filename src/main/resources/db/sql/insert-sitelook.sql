@@ -1,0 +1,1 @@
+INSERT INTO sitelook VALUES(1, 'Temple Cats for Light and Peace', 'DarkMagenta', 24, 2, 'col-md-3 col-md-offset-1 col-xs-4', 'CATS', '', 'glyphicon-eye-open', 'glyphicon-eye-open', '', 'col-md-5', 'col-md-7', 'temple-cats-for-light-and-peace-1', 2012, 'Secret', 'Post');
