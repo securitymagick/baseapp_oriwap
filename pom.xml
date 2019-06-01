@@ -103,25 +103,6 @@
 					<wtpContextName>spring3</wtpContextName>
 				</configuration>
 			</plugin>
-
-        <plugin>
-            <groupId>com.srcclr</groupId>
-            <artifactId>srcclr-maven-plugin</artifactId>
-            <version>3.1.0</version>
-            <configuration>
-                <!--- Add configuration details here-->
-                <apiToken>eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtSWQiOiIxNjI1OSIsInNjb3BlIjpbXSwiaWQiOjU1ODAzLCJleHAiOjE1NTUwMTM4NjksImF1dGhvcml0aWVzIjoiQUdFTlQiLCJvcmdJZCI6IjQwOTgiLCJqdGkiOiJjYjExNzhhMy04ZTQ1LTRmZTAtYjRhNi02MjdlYzNjZDMyMDQiLCJjbGllbnRfaWQiOiIifQ.WU-W8hMZuUl-MovwQnXToCgzGcsC2mIkyayTWVFzj1nEgyOQEeSB4ODR6ZaXJoaenVS9cFEV5Q7x1poK3rpbdGj1m8iEmAwRgCROOjo2I_x8VyFzj1qookRN_I_aTtqxMoTQyR9J-rOcvmcA0Qrh8bXJkN6cKeVdiVbFnUnSFzw</apiToken>
-           </configuration>
-           <executions>
-               <execution>
-                   <id>srcclr-scan</id>
-                   <phase>verify</phase>
-                   <goals>
-                       <goal>scan</goal>
-                   </goals>
-               </execution>
-          </executions>
-        </plugin>
    
 			
 		</plugins>
